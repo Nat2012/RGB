@@ -1,0 +1,51 @@
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+.RGB{
+    display: flex;
+}
+
+.RGB input{
+    width: 5cm;
+    margin-left: 3cm;
+    margin-top: 5cm;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 1cm;
+    margin-left: 580px;
+}
+
+
+@media screen and (max-width: 500px){
+    body{
+        width: 400px;
+        height: 700px;
+    }
+    h2{
+        margin: 60px 0px 0px 300px;
+    }
+    .RGB input{
+        width: 500px;
+        font-size: x-large;
+        font-weight: bolder;
+        margin-left: 50px;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+
+    #btn{
+        margin-top: 1cm;
+        margin-left: 300px;
+        font-size: larger;
+        font-weight: bolder;
+    }
+}
